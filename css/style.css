@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: deeppink;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    
+}
+
+h3  {
+    font-size: 35px;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-left: 5px;
+    font-size: 24px;
+    color: darkslategray;
+}
+
+#city, #temp, #feels_like, #weather {
+    background-color: lightgray;
+    font-weight: bold;
+    color: deeppink;
+}
+
+form {
+    padding: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 330px;
+}
